@@ -5,6 +5,10 @@ document.getElementById('yes-button').addEventListener('click',()=>{
     })
 });
 
+document.getElementById('no-button-one').addEventListener('click',() => {
+    window.location.href = 'nopage.html'
+})
+
 document.getElementById('no-button').addEventListener('mouseenter',()=>{
     const button = document.getElementById('no-button');
     const randomX = Math.ramdom() * (window.innerWidth-button.offsetWidth);
