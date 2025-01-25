@@ -4,8 +4,6 @@ document.getElementById('yes-button').addEventListener('click',()=>{
         window.location.href ='nextpage.html'
     })
 });
-
-
 document.getElementById('no-button').addEventListener('mouseenter',()=>{
     const button = document.getElementById('no-button');
     const randomX = Math.ramdom() * (window.innerWidth-button.offsetWidth);
