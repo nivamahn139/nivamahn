@@ -6,7 +6,9 @@ document.getElementById('yes-button').addEventListener('click',()=>{
 });
 
 document.getElementById('no-button-one').addEventListener('click',() => {
-    window.location.href = 'nopage.html'
+    setTimeout(() => {
+        window.location.href ='nopage.html'
+    })
 })
 
 document.getElementById('no-button').addEventListener('mouseenter',()=>{
