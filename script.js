@@ -26,12 +26,3 @@ function showModal(){
 
    document.body.appendChild(modal);
 }
-function toggleHover(button) {
-  // Toggle hover effect when the button is tapped on mobile
-  button.classList.toggle('hover');
-  
-  // After 0.3 seconds, remove the hover effect to simulate mouse leaving
-  setTimeout(() => {
-    button.classList.remove('hover');
-  }, 300); // Same duration as the transition for smooth effect
-}
